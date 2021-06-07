@@ -1,0 +1,154 @@
+body {
+  overflow-x: hidden;
+  width: 100%;
+  font: 15px "Century Gothic", "Times Roman", sans-serif;
+  background: #eee;
+  min-height: 550px;
+  background-attachment: fixed;
+}
+.hide {
+  display: none !important;
+}
+
+.bg {
+  min-height: 540px;
+}
+.bg1 {
+  background: url(../image/bg_home.jpg);
+  min-height: 535px;
+}
+
+@font-face {
+  font-family: "typo";
+  src: url("../fonts/typo.ttf");
+}
+
+@font-face {
+  font-family: "gothic";
+  src: url("../fonts/gothics.ttf");
+}
+
+.panel {
+  border-color: #eee;
+  margin: 40px;
+  padding: 20px;
+  font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+
+.title {
+  font-family: "typo";
+}
+
+.header {
+  height: 70px;
+  background-color: #260749;
+}
+.logo {
+  font-family: "typo";
+  font-size: 30px;
+  color: #ffffff;
+  margin: 15px;
+  margin-top: 50px;
+}
+
+.title1 {
+  font: 16px "Times Roman", sans-serif;
+}
+.title2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+}
+
+.sub1 {
+  color: #000;
+  background: #fff;
+  font-size: 15px;
+  height: 35px;
+  margin: 20px;
+  padding: 10px;
+  width: 150px;
+}
+.sub1:hover {
+  color: #000;
+}
+
+.sub2 {
+  color: #fff;
+  background: #260749;
+  font-size: 15px;
+  height: 35px;
+  margin: 20px;
+  padding: 10px;
+  width: 200px;
+}
+.sub2:hover {
+  color: #fff;
+}
+
+.sub {
+  width: 100%;
+  background-color: #9acd32;
+  font-size: 20px;
+  padding: 2px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+.sub:hover {
+  color: #fff;
+}
+
+.footer {
+  font-size: 15px;
+  text-align: center;
+  border-top: 1px solid;
+  border-color: #323232;
+  background-color: #0e0218;
+}
+.footer a {
+  margin: 25px;
+  color: rgb(250, 250, 250);
+  text-decoration: none;
+  font: 15px "Century Gothic", "Times Roman", sans-serif;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #9acd32;
+  background-color: #666;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: orange;
+  border-right-color: orange;
+  border-bottom-color: orange;
+  border-left-color: orange;
+}
+
+.box {
+  padding: 9px;
+}
+hr {
+  color: #000000;
+}
+.top {
+  margin-top: 20px;
+}
+.log1 {
+  font: 17px "Ubuntu", sans-serif;
+  color: yellow;
+  margin-left: 10px;
+}
+
+.log {
+  margin: 10px;
+  margin-right: 60px;
+  margin-left: 5px;
+  color: yellow;
+  text-decoration: none;
+  font-size: 22px;
+  font-size: 17px;
+}
+.log:hover {
+  color: #9acd32;
+  border-top: 2px solid;
+  border-color: orange;
+  text-decoration: none;
+}
