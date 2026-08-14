@@ -1,10 +1,13 @@
+
+
+```markdown
 # Automated Examination System (AES)
 
 ### Web-Based Examination System for Secondary Schools
 
 The **Automated Examination System (AES)** is a web-based examination platform developed to support the administration and delivery of computer-based examinations for secondary schools.
 
-The system was developed to provide a structured digital workflow for managing schools, students, subjects, examiners, examination questions, examinations and results.
+The system provides a structured digital workflow for managing schools, students, subjects, examiners, examination questions, examinations, and results.
 
 ---
 
@@ -18,13 +21,13 @@ It was subsequently piloted in secondary schools in Akure, Ondo State, including
 - Oyemekun Grammar School, Akure
 - Fiwasaye Girls Grammar School, Akure
 
-The pilot provided an opportunity to test the system in an actual school environment and evaluate the workflow around computer-based examinations.
+The pilot provided an opportunity to test the examination workflow in an actual school environment.
 
 ---
 
 ## Core Functionality
 
-The system provides separate workflows for different users involved in the examination process.
+The system provides dedicated workflows for the major users involved in the examination process.
 
 ### Administrator
 
@@ -72,22 +75,20 @@ Students have a dedicated examination workflow including:
 
 ## Examination Types
 
-The system supports both:
-
 ### Objective Examinations
 
-The platform provides functionality for:
+The platform supports:
 
 - Creating objective questions
 - Setting objective examinations
 - Starting examinations
-- Navigating questions
+- Navigating examination questions
 - Processing submitted answers
 - Generating objective examination results
 
 ### Theory Examinations
 
-The system also supports theory examinations, including:
+The platform also supports theory examinations, including:
 
 - Creating theory questions
 - Setting theory examinations
@@ -100,7 +101,7 @@ The system also supports theory examinations, including:
 
 ## Result Management
 
-The application includes functionality for managing and reviewing examination results.
+The application provides functionality for managing and reviewing examination results.
 
 This includes:
 
@@ -114,9 +115,9 @@ This includes:
 
 ---
 
-## Search & Management
+## Search & Data Management
 
-The system includes search and management functionality for core examination resources, including:
+The system provides search and management functionality for core examination resources, including:
 
 - Schools
 - Students
@@ -128,24 +129,9 @@ This provides administrators and examiners with structured access to examination
 
 ---
 
-## Technology Stack
-
-The application is primarily implemented using:
-
-- PHP
-- MySQL
-- JavaScript
-- jQuery
-- HTML
-- CSS
-
-The repository contains PHP application modules, CSS, JavaScript, search-related assets and database connection components.
-
----
-
 ## Application Structure
 
-The application is organized around the major roles and workflows of the examination process.
+The system is organized around the major roles and workflows of the examination process.
 
 ```text
                     Automated Examination System
@@ -156,7 +142,7 @@ The application is organized around the major roles and workflows of the examina
               │               │               │
        ┌──────┼──────┐    ┌───┼────┐      ┌───┼────┐
        │      │      │    │   │    │      │   │    │
-    Schools Students Subjects Questions Exams  Profile Exams
+    Schools Students Subjects Questions Exams Profile Exams
        │      │      │    │   │    │          │
        └──────┴──────┘    └───┴────┘          └───┘
                               │
