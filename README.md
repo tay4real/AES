@@ -1,6 +1,3 @@
-
-
-```markdown
 # Automated Examination System (AES)
 
 ### Web-Based Examination System for Secondary Schools
